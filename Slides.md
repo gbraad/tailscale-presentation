@@ -14,7 +14,7 @@ enableSearch: false
 overview: true
 ---
 
-![](logo.webp)<br/>
+![](./logo.png)<br/>
 <span style="font-size:3.6em;font-weight:bold">tailscale</span>
 ### <span style="text-transform:lowercase">from behind the firewall</span>
 
