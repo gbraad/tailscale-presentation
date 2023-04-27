@@ -14,7 +14,7 @@ enableSearch: false
 overview: true
 ---
 
-![](./logo.png)<br/>
+![](logo.webp)<br/>
 <span style="font-size:3.6em;font-weight:bold">tailscale</span>
 ### <span style="text-transform:lowercase">from behind the firewall</span>
 
@@ -73,7 +73,25 @@ $ tailscale
 
 # Let's add
 
-  * GitHub Codespaces
+GitHub Codespaces
+
+```sh
+$ tailscale up
+To authenticate, visit:
+
+        https://login.tailscale.com/a/8e1c9e44ca05
+
+Success.
+```
+
+---
+
+# Ping
+
+```sh
+$ tailscale ping ngage
+pong from ngage (100.103.237.1) via 10.0.21.193:41642 in 2ms
+```
 
 ---
 
@@ -84,17 +102,30 @@ VM
 $ watch -n1 \
 	tailscale status
 ```
+
 Codespace
 ```sh
 $ tailscale ping [nodename]
 ```
 Uses a relay to establish a path (DERP)
 
+    100.103.237.1   ngage                gbraad@      linux   active; direct 10.0.21.193:41642
+
 ---
 
 # What about
 
-* GitPod Workspace
+GitPod Workspace
+
+```sh
+$ tailscale up
+$ tailscale status
+```
+
+    100.112.112.8   workspace-to8ua08    gbraad@      linux   -
+    100.103.237.1   ngage                gbraad@      linux   -
+    100.88.207.80   ngage-podman         gbraad@      linux   -
+    100.77.26.55    codespaces-88c2bb    gbraad@      linux   -
 
 ---
 
