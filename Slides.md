@@ -53,6 +53,12 @@ overview: true
 
 ---
 
+# VM
+
+Uses my [dotfiles](https://github.com/gbraad/dotfiles) on Fedora
+
+---
+
 # Parts
 
 Daemon
@@ -75,11 +81,9 @@ https://login.tailscale.com/
 
 ---
 
-# Let's add
+# Tailnet
 
-GitHub Codespaces
-
-```sh
+```
 $ tailscale up
 To authenticate, visit:
 
@@ -87,6 +91,18 @@ To authenticate, visit:
 
 Success.
 ```
+
+---
+
+# Let's add
+
+[GitHub Codespaces](https://github.com/codespaces/new?machine=standardLinux32gb&repo=61788628&ref=main&location=SouthEastAsia&devcontainer_path=.devcontainer%2Fdevcontainer.json)
+
+```sh
+$ tailscale up
+```
+
+Now network should have 2 nodes
 
 ---
 
@@ -119,7 +135,7 @@ Uses a relay to establish a path (DERP)
 
 # What about
 
-GitPod Workspace
+[GitPod Workspace](https://gitpod.io/#https://github.com/gbraad/devenv)
 
 ```sh
 $ tailscale up
