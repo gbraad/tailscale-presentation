@@ -69,6 +69,10 @@ Control client
 $ tailscale
 ```
 
+Control server
+
+https://login.tailscale.com/
+
 ---
 
 # Let's add
