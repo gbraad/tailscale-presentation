@@ -16,6 +16,8 @@ Introductory presentation about Tailscale
 Open `Slides.md` with Obsidian.md's Advanced Slides plugin
 or `evliz` vscode-reveal.
 
+  * Open as [Gitpod workspace](https://gitpod.io/new/#https://github.com/gbraad/tailscale-presentation)
+
 It is also possible to open an exported slidedeck on
 
   * https://gbraad.nl/tailscale-presentation
