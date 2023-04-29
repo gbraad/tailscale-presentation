@@ -244,6 +244,8 @@ Set up private services
   * [vmproxy](https://github.com/shayne/vmproxy), control and VNC access to a VM
   * [golink](https://github.com/tailscale/golink), a URL shortener
   * [caddy-tailscale](https://github.com/tailscale/caddy-tailscale), Caddy on a private address
+  * [private-foundryvtt](https://github.com/spotsnel/private-foundryvtt-server), tabletop game server
+
 ---
 
 # Control server
